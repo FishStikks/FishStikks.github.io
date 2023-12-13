@@ -1,0 +1,140 @@
+body {
+	color: white;
+	background-color: black;
+}
+
+
+nav {
+	float: left;
+	font-weight: bold;
+	padding: 1.5em;
+	font-size: 120%;
+	width: 130px;
+	background-color: azure;
+	background-repeat: repeat-y;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0%;
+	padding-left: 0;
+	font-size: 1.2em;
+
+}
+
+nav a:link {
+	color: #5C7FA3
+}
+
+nav a:visited {
+	color: black
+}
+
+nav a:hover {
+	background-color: lightblue;
+	transition: background-color 2s linear;
+	
+}
+
+header {
+	background-image: url(lots_of_Fruits.jpg);
+	background-size: 100% 300%;
+	background-position: right;
+	background-repeat: no-repeat;
+	line-height: 400%;
+	text-indent: 1em;
+}
+
+#container-column {
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+main {
+	margin-left: 190px;
+	background-image: linear-gradient(to bottom, red, black);
+}
+
+footer {
+	background-color: blueviolet;
+	font-style: italic;
+	font-size: 75%;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding: 2em;
+	margin-left: 190px;
+
+}
+
+#wrapper {
+	background-color: #90C7E3;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-width: 960px;
+	max-width: 2048px;
+	box-shadow: 3px 3px 3px #333333;
+	border: solid 1px #000033;
+}
+
+table {
+	border: 2px solid yellow;
+	border-collapse: collapse;
+
+}
+
+td {
+	padding: 0.5em;
+	border: 2px solid darkgreen;
+	text-align: center;
+}
+
+th {
+	padding: 0.5em;
+	border: 2px solid darkgreen;
+}
+
+#special {
+	clear: both
+}
+
+.text {
+	text-align: left;
+}
+
+tr:nth-of-type(odd) {
+	background-color: rgb(127, 30, 172);
+}
+
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 140px;
+	padding-right: 5px;
+}
+
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	margin-left: 140px;
+}
+p {
+	text-align: center;
+}
